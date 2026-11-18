@@ -1,0 +1,651 @@
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 16-11-2026 00:06:50
+Source: NED University
+Destination: Karachi Airport
+Maximum intermediate stops: 2
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 3
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport
+Distance: 18.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.29 litres
+
+Route 2:
+NED University -> University Road -> Shahrah-e-Faisal -> Karachi Airport
+Distance: 19.00 km
+Base travel time: 47.00 minutes
+Estimated travel time: 47.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 3:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport
+Distance: 21.00 km
+Base travel time: 48.00 minutes
+Estimated travel time: 48.00 minutes
+Estimated fuel consumption: 1.50 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 16-11-2026 00:22:12
+Source: Gulshan-e-Iqbal
+Destination: NED University
+Maximum intermediate stops: 1
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 2
+
+Route 1:
+Gulshan-e-Iqbal -> NED University
+Distance: 3.00 km
+Base travel time: 10.00 minutes
+Estimated travel time: 10.00 minutes
+Estimated fuel consumption: 0.21 litres
+
+Route 2:
+Gulshan-e-Iqbal -> University Road -> NED University
+Distance: 6.00 km
+Base travel time: 18.00 minutes
+Estimated travel time: 18.00 minutes
+Estimated fuel consumption: 0.43 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 16-11-2026 02:01:31
+Source: NED University
+Destination: Gulshan-e-Iqbal
+Maximum intermediate stops: 2
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 2
+
+Route 1:
+NED University -> University Road -> Gulshan-e-Iqbal
+Distance: 6.00 km
+Base travel time: 18.00 minutes
+Estimated travel time: 18.00 minutes
+Estimated fuel consumption: 0.43 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Gulshan-e-Iqbal
+Distance: 13.00 km
+Base travel time: 37.00 minutes
+Estimated travel time: 37.00 minutes
+Estimated fuel consumption: 0.93 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:44
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:46
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:47
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:47
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:49
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:49
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:49
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+
+
+==============================================
+              SMARTROUTE REPORT               
+==============================================
+Generated: 18-11-2026 13:52:49
+Source: NED University
+Destination: Shahrah-e-Faisal
+Maximum intermediate stops: 3
+Vehicle: Car
+Vehicle mileage: 14.00 km/L
+
+Total routes found: 8
+
+Route 1:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 32.00 minutes
+Estimated travel time: 32.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 2:
+NED University -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 11.00 km
+Base travel time: 31.00 minutes
+Estimated travel time: 31.00 minutes
+Estimated fuel consumption: 0.79 litres
+
+Route 3:
+NED University -> Gulshan-e-Iqbal -> University Road -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 12.00 km
+Base travel time: 35.00 minutes
+Estimated travel time: 35.00 minutes
+Estimated fuel consumption: 0.86 litres
+
+Route 4:
+NED University -> University Road -> Gulshan-e-Iqbal -> Bahadurabad -> Shahrah-e-Faisal
+Distance: 14.00 km
+Base travel time: 40.00 minutes
+Estimated travel time: 40.00 minutes
+Estimated fuel consumption: 1.00 litres
+
+Route 5:
+NED University -> Gulshan-e-Iqbal -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 53.00 minutes
+Estimated travel time: 53.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 6:
+NED University -> University Road -> Bahadurabad -> Saddar -> Shahrah-e-Faisal
+Distance: 19.00 km
+Base travel time: 52.00 minutes
+Estimated travel time: 52.00 minutes
+Estimated fuel consumption: 1.36 litres
+
+Route 7:
+NED University -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 26.00 km
+Base travel time: 57.00 minutes
+Estimated travel time: 57.00 minutes
+Estimated fuel consumption: 1.86 litres
+
+Route 8:
+NED University -> University Road -> Gulshan-e-Iqbal -> Karachi Airport -> Shahrah-e-Faisal
+Distance: 29.00 km
+Base travel time: 65.00 minutes
+Estimated travel time: 65.00 minutes
+Estimated fuel consumption: 2.07 litres
+==============================================
+

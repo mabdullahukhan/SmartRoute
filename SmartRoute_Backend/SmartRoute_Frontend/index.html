@@ -1,0 +1,387 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b10">
+  <title>SmartRoute | Karachi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app-shell">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="SmartRoute home">
+        <span class="brand-mark">↗</span>
+        <span>Smart<span class="brand-accent">Route</span></span>
+      </a>
+
+      <div class="side-label">WORKSPACE</div>
+
+      <nav class="side-nav">
+        <a class="nav-item active" href="#dashboard"><span>▦</span> Dashboard</a>
+        <a class="nav-item" href="#planner"><span>⌁</span> Route planner</a>
+        <a class="nav-item" href="#traffic"><span>◉</span> Traffic status</a>
+        <a class="nav-item" href="#reports"><span>▤</span> Reports</a>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="system-card">
+          <span class="live-dot"></span>
+          <div>
+            <strong>System status</strong>
+            <small>C backend integration pending</small>
+          </div>
+        </div>
+
+        <div class="profile">
+          <div class="avatar">SR</div>
+          <div>
+            <strong>SmartRoute Admin</strong>
+            <small>Karachi network</small>
+          </div>
+          <span class="profile-more">···</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content" id="dashboard">
+
+      <!-- TOPBAR -->
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">KARACHI • ROUTE INTELLIGENCE</div>
+          <h1>Dashboard <span class="date-pill">PROJECT PREVIEW</span></h1>
+        </div>
+
+        <div class="top-actions">
+          <button class="icon-button" aria-label="Search">⌕</button>
+          <button class="icon-button" aria-label="Notifications">♧</button>
+          <div class="top-avatar">A</div>
+        </div>
+      </header>
+
+      <!-- PROJECT METRICS -->
+      <section class="metrics-grid" aria-label="Project metrics">
+
+        <article class="metric-card">
+          <div class="metric-top">
+            <span class="metric-icon purple">⌁</span>
+            <span class="metric-caption">NETWORK</span>
+          </div>
+          <div class="metric-value">8 <span>locations</span></div>
+          <div class="metric-foot">Predefined Karachi locations</div>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-top">
+            <span class="metric-icon lime">⇄</span>
+            <span class="metric-caption">ROAD DATA</span>
+          </div>
+          <div class="metric-value">13 <span>connections</span></div>
+          <div class="metric-foot">Illustrative two-way road network</div>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-top">
+            <span class="metric-icon blue">◈</span>
+            <span class="metric-caption">TRANSPORT</span>
+          </div>
+          <div class="metric-value">3 <span>vehicles</span></div>
+          <div class="metric-foot">Car, motorcycle and bus</div>
+        </article>
+
+        <article class="metric-card">
+          <div class="metric-top">
+            <span class="metric-icon orange">◷</span>
+            <span class="metric-caption">ENGINE</span>
+          </div>
+          <div class="metric-value">C17 <span>backend</span></div>
+          <div class="metric-foot">Route search and traffic simulation</div>
+        </article>
+
+      </section>
+
+      <!-- MAP AND ROUTE PLANNER -->
+      <section class="content-grid">
+
+        <!-- DYNAMIC MAP -->
+        <div class="panel map-panel">
+
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">NETWORK OVERVIEW</div>
+              <h2>Karachi route network</h2>
+            </div>
+
+            <span class="status-chip">
+              <span class="live-dot"></span> SIMULATED DATA
+            </span>
+          </div>
+
+          <div class="map-canvas">
+
+            <div class="map-grid"></div>
+
+            <!-- JavaScript dynamically draws roads, locations and selected routes -->
+            <svg
+              class="road-map"
+              id="roadMap"
+              viewBox="0 0 800 440"
+              preserveAspectRatio="none"
+              aria-label="Dynamic simulated Karachi road network">
+            </svg>
+
+            <!-- MAP LEGEND -->
+            <div class="map-legend">
+              <span><i class="legend-line"></i> Illustrative route</span>
+              <span><i class="legend-dot"></i> Location</span>
+            </div>
+
+            <div class="map-disclaimer">
+              Schematic network • Not a live map
+            </div>
+
+          </div>
+
+          <div class="map-footer">
+            <span><b class="dot-green"></b> 8 locations configured</span>
+            <span>13 predefined road connections</span>
+            <span>Traffic is simulated</span>
+          </div>
+
+        </div>
+
+        <!-- ROUTE PLANNER -->
+        <div class="panel planner-panel" id="planner">
+
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">PLAN YOUR JOURNEY</div>
+              <h2>Route planner</h2>
+            </div>
+
+            <span class="step-count">01 / INPUT</span>
+          </div>
+
+          <form id="routeForm">
+
+            <label for="source">Starting location</label>
+
+            <div class="select-wrap">
+              <span class="field-icon">◎</span>
+              <select id="source" required></select>
+            </div>
+
+            <div class="swap-row">
+              <span class="swap-line"></span>
+              <button
+                type="button"
+                id="swapBtn"
+                class="swap-button"
+                title="Swap locations">
+                ↕
+              </button>
+              <span class="swap-line"></span>
+            </div>
+
+            <label for="destination">Destination</label>
+
+            <div class="select-wrap">
+              <span class="field-icon destination-icon">⊙</span>
+              <select id="destination" required></select>
+            </div>
+
+            <div class="form-two">
+
+              <div>
+                <label for="vehicle">Vehicle</label>
+                <div class="select-wrap">
+                  <select id="vehicle">
+                    <option value="1">Car</option>
+                    <option value="2">Motorcycle</option>
+                    <option value="3">Bus</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="stops">Max. stops</label>
+                <div class="select-wrap">
+                  <select id="stops">
+                    <option>0</option>
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                  </select>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="primary-button" type="submit">
+              Find best routes <span>↗</span>
+            </button>
+
+          </form>
+
+          <div class="integration-note" id="resultNotice">
+            <span class="note-icon">i</span>
+
+            <div>
+              <strong>Ready for C backend</strong>
+              <p>
+                This interface is prepared. Route calculations will be supplied
+                by your existing C program during integration.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- BOTTOM DASHBOARD -->
+      <section class="bottom-grid">
+
+        <!-- TRAFFIC -->
+        <div class="panel traffic-panel" id="traffic">
+
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">ROAD CONDITIONS</div>
+              <h2>Traffic overview</h2>
+            </div>
+
+            <span class="muted-small">SIMULATION</span>
+          </div>
+
+          <div class="traffic-bars">
+
+            <div class="traffic-row">
+              <div><span class="traffic-dot normal"></span>Normal</div>
+              <div class="bar-track">
+                <span class="bar-fill normal-fill" style="width:48%"></span>
+              </div>
+              <strong>Normal</strong>
+            </div>
+
+            <div class="traffic-row">
+              <div><span class="traffic-dot busy"></span>Busy</div>
+              <div class="bar-track">
+                <span class="bar-fill busy-fill" style="width:32%"></span>
+              </div>
+              <strong>Busy</strong>
+            </div>
+
+            <div class="traffic-row">
+              <div><span class="traffic-dot congested"></span>Congested</div>
+              <div class="bar-track">
+                <span class="bar-fill congested-fill" style="width:20%"></span>
+              </div>
+              <strong>Congested</strong>
+            </div>
+
+          </div>
+
+          <p class="panel-footnote">
+            Illustrative status distribution; actual road conditions are
+            managed in the C backend.
+          </p>
+
+        </div>
+
+        <!-- VEHICLES -->
+        <div class="panel vehicle-panel">
+
+          <div class="panel-heading">
+            <div>
+              <div class="eyebrow">FUEL ESTIMATION</div>
+              <h2>Vehicle fleet</h2>
+            </div>
+
+            <span class="muted-small">MILEAGE</span>
+          </div>
+
+          <div class="vehicle-list">
+
+            <div class="vehicle-row">
+              <span class="vehicle-symbol">▰</span>
+              <div>
+                <strong>Car</strong>
+                <small>14.0 km per litre</small>
+              </div>
+              <span class="vehicle-type">01</span>
+            </div>
+
+            <div class="vehicle-row">
+              <span class="vehicle-symbol bike">◒</span>
+              <div>
+                <strong>Motorcycle</strong>
+                <small>40.0 km per litre</small>
+              </div>
+              <span class="vehicle-type">02</span>
+            </div>
+
+            <div class="vehicle-row">
+              <span class="vehicle-symbol bus">▤</span>
+              <div>
+                <strong>Bus</strong>
+                <small>5.0 km per litre</small>
+              </div>
+              <span class="vehicle-type">03</span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- REPORTS -->
+        <div class="panel report-panel" id="reports">
+
+          <div class="report-icon">▤</div>
+
+          <div>
+            <div class="eyebrow">PROJECT OUTPUT</div>
+            <h2>Route reports</h2>
+            <p>Save selected journey details to the existing text report.</p>
+            <span class="report-file">reports/SmartRoute_Report.txt</span>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <span>
+          SMARTROUTE <span class="footer-dot">•</span> NED UNIVERSITY PROJECT
+        </span>
+
+        <span>
+          Frontend prototype v1.0
+          <span class="footer-dot">•</span>
+          C17 backend preserved
+        </span>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="app.js"></script>
+
+</body>
+</html>
